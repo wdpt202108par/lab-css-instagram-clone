@@ -7,4 +7,97 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  min-height: 100vh;
+  display:flex;
+}
+
+#all {
+  margin:auto;
+  width: 80%;
+}
+
+#section1 {
+ display: flex;
+}
+
+#left{
+  margin-right: 30px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#right{
+  margin-right:100px;
+  margin-left: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+header{
+  display: flex;
+  padding-bottom: 30px;
+  padding-top: 5px;
+}
+
+header button {
+  background-color: #1c5380;
+  color: white;
+  margin-left: auto;
+  font-weight: bold;
+  margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size:120%;
+}
+
+button img {
+  padding-right: 5px;
+  width: 35px;
+  vertical-align: middle;
+}
+
+#text{
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 3px 8px 0px #0000007d;
+}
+
+#text h1 {
+  color : #06365f;
+  line-height: 1.2;
+}
+
+#text p{
+  line-height:1.5;
+}
+
+span{
+  font-weight: bold;
+}
+
+#text img{
+  margin-right: 20px;
+}
+
+
+footer ul {
+  list-style : none;
+  display: flex;
+  justify-content: center;
+}
+
+footer  ul  li {
+  margin-right: 20px;
+  text-transform:uppercase;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color:  #1c5380;
+  font-weight: bold;
+}
+
+#lastli {
+  color : gray;
 }

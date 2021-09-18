@@ -4,7 +4,23 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+.insta-body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between;   */
+
+}
+
+#iphones {
+  height: 450px;
+
+}
+
+.login-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }

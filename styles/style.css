@@ -7,8 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: rgb(84,124,158);
-
+  background: linear-gradient(180deg, #1c5380 40%, white 40%) no-repeat;
 }
 
 section {
@@ -34,17 +33,13 @@ section {
   height: 50px;
   align-items: center;
   font-size: 70%;
-  background: rgb(84,124,158);
+  background: linear-gradient(to bottom, white, 1%, #1c5380);
   border-radius: 3px;
-  border-color: rgb(15, 57, 94);
+  border-color: #06365f;
   border-width: 1px;
   color: white;
   font-weight: 700;
   font-size: 80%;
-}
-
-.header .degrade {
-  background: linear-gradient(to bottom right, white, 5%, rgb(84,124,158));
 }
 
 .header button img {
@@ -52,7 +47,7 @@ section {
 }
 
 .header > img{
-  width: auto;
+  width: 250px;
   height: auto;
 }
 
@@ -64,7 +59,7 @@ section {
 }
 
 #section h1 {
-  color: rgb(15, 57, 94);
+  color: #06365f;
 }
 
 .bold {
@@ -77,7 +72,7 @@ section {
 }
 
 #section > .boutons img {
-  margin-right 20px;
+  margin-right: 20px;
 }
 
 footer{
@@ -89,17 +84,20 @@ footer{
 }
 
 footer ul{
-  text-decoration: none;
   display: flex;
   list-style-type: none;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 li {
   margin-right: 20px;
   font-weight: bold;
-  text-decoration: none;
+  color: #1c5380;
 }
-
 
 h4{
   color:grey;

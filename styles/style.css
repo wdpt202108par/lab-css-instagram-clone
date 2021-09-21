@@ -8,61 +8,149 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* margin: 0; */
+  margin: 0;
+  min-height: 100vh;
+  color: #06365f;
+  background: linear-gradient(to bottom, #06365f 0%,#06365f 35%,#06365f 35%,white 35%,white 100%); 
 }
+
+/*░S░E░C░T░I░O░N░*/
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+
+/*░H░E░A░D░E░R░)*/
 
 header{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-}
-header > a{
-  background-image: url(../images/home.png);
-  background-repeat: no-repeat;
-  background-color: #1C5380;
-  border: blue;
-  font-style: none;
-  color:white;
-}
-section{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
-section > div{
-  /*padding-left: 10px;
-  padding-right: 10px;
-  width: 30%;
-  margin-right: auto;
-  margin-left: auto;*/
+  justify-content: space-between;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
-.img-phone{
+button{
+  background-color: #1C5380;
+  border: blue;
+  width: 100px;
+  height: 38px;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
 }
-.instadiv{
-  width: 500px;
-  margin-top: auto; margin-bottom: auto;
-  margin-left: 50px;
+
+header > button > a{
+  background-repeat: no-repeat;
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
 }
+
+.home{
+  margin-right: 5px;
+}
+
+
+/*░F░O░O░T░E░R░*/
+
 footer{
   display: flex;
   flex-direction: row;
+  font-weight: bold;
 }
+
 footer > ul{
   display: flex;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
- }
- footer > ul > li{
+}
+
+footer > ul > li{
   list-style: none;
   text-decoration: none;
-  padding: 5px;
- }
- #a{
-   text-decoration: none;
-   color:#1c5380;
- }
+  margin-right: 20px;
+  text-transform: uppercase;
+  color:#1c7d80;
+}
+
+#a{
+  text-decoration: none;
+  color:#1c5380;
+}
+
+
+/*░H░2░*/
+
+h2{
+  color: #06365f;
+  font-size: 25px;
+  margin-right: 163px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+
+/*░P░*/
+
+p{
+  margin-bottom: 0px;
+}
+
+/*░D░I░V░ ░S░T░Y░L░I░N░G░*/
+
+#divformat{
+  margin-right: 30px;
+  margin-left: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.img-badge{
+  display: flex;
+  justify-content: space-evenly;
+  width: 350px;
+  margin-top: 0px; 
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.iphone{
+  margin-right: 20px;
+}
+
+.instadiv{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.divorder{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 75px;
+  background-color: white;
+  border-radius: 5px; 
+  box-shadow: 0px 3px 8px 0px #0000007d;
+}
+
+.imagebrand{
+  margin-right: 70px;
+  padding-right: 50px;
+}
+
+

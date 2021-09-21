@@ -7,4 +7,98 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(180deg, #1c5380 40%, white 40%) no-repeat;
+}
+
+section {
+  display:flex;
+  margin: 100px 200px 50px 200px;
+}
+
+
+#maincontainer {
+  margin-left: 30px;
+}
+
+.header {
+  display:flex;
+  padding-right: 5px;
+  align-items: center;
+}
+
+.header button {
+  margin-left: auto;
+  display:flex;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  font-size: 70%;
+  background: linear-gradient(to bottom, white, 1%, #1c5380);
+  border-radius: 3px;
+  border-color: #06365f;
+  border-width: 1px;
+  color: white;
+  font-weight: 700;
+  font-size: 80%;
+}
+
+.header button img {
+  margin-right: 5px;
+}
+
+.header > img{
+  width: 250px;
+  height: auto;
+}
+
+#section {
+  background: white;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#section h1 {
+  color: #06365f;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+#section > .boutons {
+  display: flex;
+  margin-top: 50px;
+}
+
+#section > .boutons img {
+  margin-right: 20px;
+}
+
+footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+footer ul{
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+li {
+  margin-right: 20px;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+h4{
+  color:grey;
 }

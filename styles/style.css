@@ -1,10 +1,86 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+/*Colors to use:
+dark blue: #06365F
+light blue: #1C5380*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+#article {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#colRight {
+  margin-left: 50px;
+  margin-right: 200px;
+  width: 500px;
+}
+#colRight a {
+  width: 100px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-align: center;
+  text-indent: 2em;
+  line-height: 2.9em;
+  color: white;
+  margin-left: 90px;
+  text-decoration:none;
+  background-color: #1C5380;
+  background-image: url(../images/home.png);
+  background-repeat: no-repeat;
+  background-position: unset;
+  background-position-x: 10px;
+  background-position-y: 10px ;
+}
+#mastHead {
+  display: flex;
+  align-items: center;
+}
+#mastHead img {
+  height: 75px;
+}
+#content {
+  margin-left: 25px;
+  margin-right: 35px;
+}
+p {
+  margin: 10px 0;
+}
+h2 {
+  color: #1C5380;
+  width: 300px;
+  line-height: 1.3em;
+}
+#androidIos {
+  margin-top: 40px;
+  }
+#androidIos img:last-child {
+padding-left: 20px;
+}
+footer {
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding-left: 210px;
+}
+li {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+li > a {
+  text-decoration:none;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #1C5380;
+}
+li:last-child > a {
+  color: grey;
 }
